@@ -114,7 +114,7 @@ def doubleChar(str):
 
 print(doubleChar('The')  )
 print(doubleChar('AAbb'))  
-print(doubleChar('Hi-There'))  ''' 
+print(doubleChar('Hi-There'))  
 
 
 def count_evens(num):
@@ -125,7 +125,23 @@ print(count_evens([2, 1, 2, 3, 4]) )
 print(count_evens([2, 2, 0])  )
 print(count_evens([1, 3, 5])  )
 
+my_list=[1,3,4,5,6]
+my_list.append(9)
+my=my_list
+print(my)
 
+
+my_set = {1,0, 2, 8,10, 4, 5, 5}
+x=list(my_set)
+print(x[3])''' 
+
+
+my_list=['one','two','three','four']
+for i in my_list:
+  print(i)
+
+for i in range(10):
+  print(i, end='')
 
   
 
